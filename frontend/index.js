@@ -8,5 +8,5 @@ const domNode = document.getElementById('root')
 const root = createRoot(domNode)
 
 root.render(
-  <App lang="esp" />
+  <App lang="en" />
 )
