@@ -40,9 +40,9 @@ To successfully complete this project, you will need the following technical kno
 
 **Here are some files of interest you will need to complete your tasks:**
 
-1. Inside a [JSON file](./frontend/i18n/index.json) you will find an object in JSON format.
+1. Inside a [JSON document](./frontend/i18n/index.json) you will find an object in JSON format.
     - The object contains the visible **texts** of headings and buttons, and also input **labels** and input **placeholders**.
-    - The object **can be imported** from JS modules. The `import` statement will even take care of parsing the JSON for you!
+    - The object **can be imported** into other modules. The `import` statement will even take care of parsing the JSON for you!
 
 2. Inside the [App.js module](./frontend/components/App.js) you will find the form that renders in Chrome.
 
