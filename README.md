@@ -14,13 +14,13 @@ To successfully complete this project, you will need the following technical kno
 
 **Here is an overview of the tasks you will complete:**
 
-1. Write integration tests with React Testing Library to check that a form written in React includes the required pieces of text.
+1. You will write integration tests with React Testing Library to check that a form written in React includes the required pieces of text.
 
-2. Make the form support limited internationalization (i18n) by allowing the user of the app to toggle between English and Spanish.
+2. You will make the form support limited internationalization (i18n) by allowing the user of the app to toggle between English and Spanish.
 
-3. Write further integration tests to test the multi-language feature of the form.
+3. You will write further integration tests to test the multi-language feature of the form.
 
-4. Write an auxiliary helper function and unit-test it.
+4. You will write an auxiliary helper function and unit-test it.
 
 ### 💾 Setup
 
