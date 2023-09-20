@@ -121,20 +121,6 @@ No. Everything you need should be installed already.
 </details>
 
 <details>
-  <summary>Can I edit the styles?</summary>
-
-Of course! Have at it.
-
-</details>
-
-<details>
-  <summary>Can I edit the HTML?</summary>
-
-That's probably not a great idea. Why do you want to do that?
-
-</details>
-
-<details>
   <summary>My page does not work! How do I debug it?</summary>
 
 With React, it's very important that we use the React Dev Tools to monitor the state of our components as we interact with the App. If the state is not adjusting like it should, that's good to know. If the state does change but the UI does not respond, that's a different thing.
@@ -146,15 +132,6 @@ If your code has a syntax problem, the app will print error messages in the cons
 <details>
   <summary>How do I run tests against my code?</summary>
 
-This particular project has no tests in it. All testing must be manual!
+Run `npm test` to execute all test files in the project.
 
 </details>
-
-<details>
-  <summary>I messed up and want to start over! How do I do that?</summary>
-
-Do NOT delete your repository from GitHub! Instead, commit frequently as you work. Make a commit whenever you achieve anything and the app isn't crashing in Chrome. This in practice creates restore points you can use should you wreak havoc with your app. If you find yourself in a mess, use git reset --hard to simply discard all changes to your code since your last commit. If you are dead-set on restarting the challenge from scratch, you can do this with Git as well. Research how to reset hard to a specific commit.
-
-</details>
-
-**Project created with [@bloomtools/react@0.1.10](https://github.com/bloominstituteoftechnology/npm-tools-react) and Node v18.17.1 on Tue, August 22, 2023 at 04:09 PM**
