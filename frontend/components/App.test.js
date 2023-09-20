@@ -56,20 +56,18 @@ function getEntriesByKeyPrefix(obj, keyPrefix) {
     and returns an array of arrays such as this (for the arguments given in the examples above):
 
     [
-      [abc_1, "data_abc_1"],
-      [abc_2, "data_abc_2"],
-      [abc_3, "data_abc_3"],
+      ["abc_1", "data_abc_1"],
+      ["abc_2", "data_abc_2"],
+      ["abc_3", "data_abc_3"],
     ]
 
     If the function is passed the same `obj` as above but a `keyPrefix` of "xyz" then it would return:
 
     [
-      [xyz_1, "data_xyz_1"],
+      ["xyz_1", "data_xyz_1"],
     ]
 
-    If the function is passed the same `obj` as above but a `keyPrefix` of "foo" then it would return:
-
-    [ [] ]
+    If the function is passed the same `obj` as above but a `keyPrefix` of "foo" then it would return the empty array.
 
     The function looks inside the object `obj`, finds all properties whose property names begin
     with the `keyPrefix` given (followed by an underscore), and reorganizes the information before returning it.
