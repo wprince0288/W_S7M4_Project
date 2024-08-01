@@ -87,11 +87,11 @@ export default function App({ lang = 'en' }) {
             <legend>{texts.TEXT_FAV_LANG}</legend>
             <label>
               <input onChange={onChange} type="radio" name="favLanguage" value="javascript" checked={values.favLanguage == 'javascript'} />
-              {texts.TEXTS_FAV_LANG_JS}
+              {texts.TEXT_FAV_LANG_JS}
             </label>
             <label>
               <input onChange={onChange} type="radio" name="favLanguage" value="rust" checked={values.favLanguage == 'rust'} />
-              {texts.TEXT_FAV_LANG_JS}
+              {texts.TEXT_FAV_LANG_RUST}
             </label>
           </fieldset>
           {errors.favLanguage && <div className="validation">{errors.favLanguage}</div>}
