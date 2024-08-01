@@ -26,6 +26,18 @@ describe('Module 4 Project Tests', () => {
     })
   })
   describe('Spanish Language', () => {
+    test(`TEXT_HEADING_CREATE_ACCOUNT is visible`, () => {
+      render(<App lang="esp" />)
+      expect(screen.getByText(txt.esp.TEXT_HEADING_CREATE_ACCOUNT)).toBeVisible()
+    })
+    test(`LABEL_USERNAME is visible`, () => {
+      render(<App lang="esp" />)
+      expect(screen.getByLabelText(txt.esp.LABEL_USERNAME)).toBeVisible()
+    })
+    test(`PLACEHOLDER_USERNAME is visible`, () => {
+      render(<App lang="esp" />)
+      expect(screen.getByPlaceholderText(txt.esp.PLACEHOLDER_USERNAME)).toBeVisible()
+    })
     /*
       👉 TASK 3
 
@@ -34,17 +46,17 @@ describe('Module 4 Project Tests', () => {
   })
   describe('getEntriesByKeyPrefix', () => {
     test('can extract the correct data', () => {
-    /*
-      👉 TASK 4 part 2
-
-      Implement the function `getEntriesByKeyPrefix` below
-      and then come back here and write a few tests
-      to ensure it works as expected.
-
-      Although it should be noted that commonly,
-      the tests are written _before_ implementing
-      the function being tested.
-    */
+      /*
+        👉 TASK 4 part 2
+  
+        Implement the function `getEntriesByKeyPrefix` below
+        and then come back here and write a few tests
+        to ensure it works as expected.
+  
+        Although it should be noted that commonly,
+        the tests are written _before_ implementing
+        the function being tested.
+      */
     })
   })
 })
